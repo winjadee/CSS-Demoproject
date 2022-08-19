@@ -1,0 +1,145 @@
+body {
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 30px;
+    margin: 0%;
+}
+
+h1 {
+    margin: 50px auto 2.5rem;
+    font-family: 'Sacramento', cursive;
+    font-size: 75px;
+    color: #224B0C;
+}
+
+h2 {
+    font-size: 50px;
+    color: #E64848;
+    padding-bottom: 10px;
+
+}
+
+.top-cloud {
+    position: absolute;
+    top: 20px;
+    right: 250px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    bottom: 350px;
+    left: 60px;
+}
+
+.top-container {
+    background-color: #21E1E1;
+    padding-top: 100px;
+
+}
+
+.middle-container {
+    background-color: #9ed2c6;
+    padding-top: 150px;
+    padding-bottom: 80px;
+}
+
+.profile-image {
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    border: 4px solid black;
+}
+
+.intro {
+    width: 50%;
+    margin: auto;
+
+}
+
+p {
+    line-height: 2;
+    font-size: 18px;
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 5px;
+    width: 5%;
+    margin: 50px auto;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+}
+
+.skill-one {
+    width: 25%;
+    float: left;
+    margin-right: 80px;
+}
+
+.skill-two {
+    width: 25%;
+    float: right;
+    margin-left: 80px;
+
+}
+
+.skill-three {
+    width: 25%;
+    float: left;
+    margin-right: 80px;
+}
+
+h3 {
+    color: blue;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+}
+
+.last-para {
+    margin: auto;
+    width: 50%;
+}
+
+
+.buttonClass {
+    font-size: 15px;
+    font-family: Georgia;
+    padding: 20px 28px;
+    border-width: 1px;
+    text-decoration: none;
+    color: #fff;
+    border-color: #337bc4;
+    font-weight: bold;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    box-shadow: 3px 4px 0px 0px rgba(15, 58, 235, 1);
+    text-shadow: 0px 1px 0px #528ecc;
+    background: linear-gradient(rgba(218, 91, 106, 1), rgba(55, 70, 229, 1));
+}
+
+.buttonClass:hover {
+    background: linear-gradient(rgba(55, 70, 229, 1), rgba(218, 91, 106, 1));
+}
+
+.footer-part {
+    background-color: #528ecc;
+    padding: 80px;
+}
+
+.footer-link {
+    font-size: 40px;
+    margin-left: 20px;
+    font-family: 'Sacramento', cursive;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    color: #76ba99;
+}
